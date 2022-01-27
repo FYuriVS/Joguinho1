@@ -151,3 +151,10 @@ body {
 .show-winning-message {
   display: flex;
 }
+
+@media (max-width: 600px) {
+  .winning-text {
+    color: white;
+    font-size: 3rem;
+  }
+}
